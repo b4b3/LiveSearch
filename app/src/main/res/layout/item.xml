@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+
+
+        <TextView
+            android:id="@+id/textViewNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Nama"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textViewAlamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewNama"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+
+            android:text="13.3 Inch, 256 GB"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:id="@+id/textViewKecamatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewAlamat"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+
+
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="4.7"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewKota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewKecamatan"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="INR 56990"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+             />
+        <TextView
+            android:id="@+id/textViewKeterangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewKota"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="INR 56990"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+             />
+        <TextView
+            android:id="@+id/textViewPenerima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewKeterangan"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="INR 56990"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+             />
+        <TextView
+            android:id="@+id/textViewTglKirim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewPenerima"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="INR 56990"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textViewTglTerima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewTglKirim"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="INR 56990"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>
